@@ -25,7 +25,7 @@ services:
       - AWS_SECRET_ACCESS_KEY
       - AWS_SESSION_TOKEN
       - AWS_SES_SOURCE=no-reply-$APP_ENV@info.easi.cms.gov
-      - AWS_SES_SOURCE_ARN
+      - AWS_SES_SOURCE_ARN=blah
       - AWS_S3_FILE_UPLOAD_BUCKET=easi-app-test-file-uploads
       - PGHOST=db
       - PGPORT=5432
