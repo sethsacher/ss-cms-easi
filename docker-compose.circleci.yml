@@ -31,7 +31,7 @@ services:
       - PGPORT=5432
       - PGDATABASE=postgres
       - PGUSER=postgres
-      - PGPASS=""
+      - PGPASS=easirox
       - PGSSLMODE=disable
       - SERVER_CERT
       - SERVER_KEY
